@@ -7,7 +7,9 @@
 # General application configuration
 import Config
 
-config :notifex, pubsub: PhoenixBitsWeb.Endpoint, otp_app: :phoenix_bits
+config :notifex,
+  pubsub: PhoenixBitsWeb.Endpoint,
+  otp_app: :phoenix_bits
 
 config :phoenix_bits,
   ecto_repos: [PhoenixBits.Repo]
